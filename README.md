@@ -3,6 +3,11 @@
 An archery practice app for Android and Galaxy Watch. **Point your phone at the target, shoot, and Nock finds every
 arrow hit on its own** and sends it to your watch, so you never walk downrange to score.
 
+<p>
+  <img src="docs/screenshots/nock-home.png" width="260" alt="Home: how close to your aim, by session">
+  <img src="docs/screenshots/nock-review.png" width="260" alt="Shot review: the arrow the camera found">
+</p>
+
 ## What it does
 
 - **Finds targets and hits by camera.** Nock recognizes the targets in view, then spots each new arrow and scores it.
