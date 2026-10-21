@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Nock mark: target ring (Fern), the arrow's nock as a V notch dead centre, and the hit dot. 108dp canvas, art in the 66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:strokeColor="#8CB06B" android:strokeWidth="4.2"
+        android:pathData="M54,27.4 a26.6,26.6 0 1,1 -0.01,0 Z" />
+    <path android:strokeColor="#ECEBEC" android:strokeWidth="4.8" android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M41.4,45 L54,60.6 L66.6,45" />
+    <path android:fillColor="#8CB06B"
+        android:pathData="M54,66 m-3.6,0 a3.6,3.6 0 1,0 7.2,0 a3.6,3.6 0 1,0 -7.2,0" />
+</vector>

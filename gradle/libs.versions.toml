@@ -1,0 +1,38 @@
+[versions]
+kotlin = "2.2.10"
+composeBom = "2026.08.00"
+activityCompose = "1.13.0"
+lifecycle = "2.11.0"
+agp = "9.3.2"
+activity = "1.13.0"
+camerax = "1.6.2"
+playServicesWearable = "20.0.1"
+opencv = "5.0.0"
+remoteInteractions = "1.2.0"
+wearOngoing = "1.1.0"
+core = "1.17.0"
+
+[libraries]
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+camera-camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "camerax" }
+camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "camerax" }
+camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "camerax" }
+play-services-wearable = { group = "com.google.android.gms", name = "play-services-wearable", version.ref = "playServicesWearable" }
+
+opencv = { group = "org.opencv", name = "opencv", version.ref = "opencv" }
+
+wear-remote-interactions = { group = "androidx.wear", name = "wear-remote-interactions", version.ref = "remoteInteractions" }
+
+wear-ongoing = { group = "androidx.wear", name = "wear-ongoing", version.ref = "wearOngoing" }
+androidx-core = { group = "androidx.core", name = "core", version.ref = "core" }
+
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycle" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }

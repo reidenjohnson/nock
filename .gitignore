@@ -1,0 +1,15 @@
+*.iml
+.gradle/
+.kotlin/
+local.properties
+.idea/
+build/
+captures/
+notes/session*-data/
+notes/*.jpg
+notes/session2-arrows/
+__pycache__/
+*.pyc
+notes/*.png
+backups/
+tools/frames/

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Nock" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <!-- Sideways swipes belong to the app (close the list); the back button exits. -->
+        <item name="android:windowSwipeToDismiss">false</item>
+    </style>
+</resources>
